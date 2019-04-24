@@ -1,0 +1,24 @@
+{
+  "name": "13.4",
+  "version": "1.0.0",
+  "description": "Kodilla task 13.8 Simple http server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arti-zachara/13.4-http_server.git"
+  },
+  "keywords": [
+    "http",
+    "server",
+    "upload"
+  ],
+  "author": "arti Zachara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arti-zachara/13.4-http_server/issues"
+  },
+  "homepage": "https://github.com/arti-zachara/13.4-http_server#readme"
+}
