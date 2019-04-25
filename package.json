@@ -4,7 +4,9 @@
   "description": "Kodilla task 13.8 Simple http server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/arti-zachara/13.4-http_server/issues"
   },
-  "homepage": "https://github.com/arti-zachara/13.4-http_server#readme"
+  "homepage": "https://github.com/arti-zachara/13.4-http_server#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
 }
